@@ -18,21 +18,21 @@ This is a Streamlit-based web application that allows users to upload a PDF docu
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/stride-threat-modeling.git
-cd stride-threat-modeling
+1. Clone the repository:\
+`git clone https://github.com/your-username/stride-threat-modeling.git` \
+`cd stride-threat-modeling`
 
-2. Install dependencies:
-   pip install -r requirements.txt
-3. Create a .env file and add your Gemini API key:
-   echo 'GEMINI_API_KEY="your_api_key_here"' > .env
+3. Install dependencies:\
+   `pip install -r requirements.txt`
+
+3. Create a .env file and add your Gemini API key:\
+   `echo 'GEMINI_API_KEY="your_api_key_here"' > .env`
 
 ## Usage
-1. Run the app:
-   streamlit run {filename}.py
+1. Run the app:\
+   `streamlit run {filename}.py`
 
-2. Open the app in your browser at http://localhost:8501.
+2. Open the app in your browser at `http://localhost:8501`
 
 3. Upload a PDF document and optionally provide a GitHub repository URL and Personal Access Token (for private repos).
 
